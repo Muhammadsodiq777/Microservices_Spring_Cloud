@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="country" />
+        <module name="CountryFein" />
+        <module name="Continent" />
+        <module name="eureka-server" />
+        <module name="API_Gateway" />
+      </profile>
+      <profile name="Annotation profile for country" enabled="true">
+        <sourceOutputDir name="../country/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../country/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ContinentFein" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API_Gateway" options="-parameters" />
+      <module name="Continent" options="-parameters" />
+      <module name="ContinentFein" options="-parameters" />
+      <module name="CountryFein" options="-parameters" />
+      <module name="MicroserviceFeinWay" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="country" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+    </option>
+  </component>
+</project>
