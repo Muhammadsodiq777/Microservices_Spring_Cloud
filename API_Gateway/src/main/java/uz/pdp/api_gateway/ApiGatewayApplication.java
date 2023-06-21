@@ -13,4 +13,5 @@ public class ApiGatewayApplication {
     }
 
     // TODO: 4/18/2022 LOADBALANCE annotation
+//    I must finish this loadbalance sooner
 }

@@ -28,7 +28,7 @@
       <module name="Continent" options="-parameters" />
       <module name="ContinentFein" options="-parameters" />
       <module name="CountryFein" options="-parameters" />
-      <module name="MicroserviceFeinWay" options="-parameters" />
+      <module name="MicroserviceFeinWay" options="" />
       <module name="client" options="-parameters" />
       <module name="country" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
